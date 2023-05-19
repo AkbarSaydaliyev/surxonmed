@@ -1,0 +1,97 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+
+
+{% block content %}
+    <section class="page-title bg-1">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block text-center">
+          <h1 class="text-capitalize mb-5 text-lg">{{doctor.full_name}}</h1>
+
+          <!-- <ul class="list-inline breadcumb-nav">
+            <li class="list-inline-item"><a href="index.html" class="text-white">Home</a></li>
+            <li class="list-inline-item"><span class="text-white">/</span></li>
+            <li class="list-inline-item"><a href="#" class="text-white-50">Doctor Details</a></li>
+          </ul> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section doctor-single">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-6">
+				<div class="doctor-img-block">
+					<img src="{{doctor.photo.url}}" alt="{{doctor.full_name}}" class="img-fluid w-100">
+
+					<div class="info-block mt-4">
+						<h4 class="mb-0">{{doctor.full_name}}</h4>
+						<p>{{doctor.category}}</p>
+
+						<ul class="list-inline mt-4 doctor-social-links">
+							<li class="list-inline-item"><a href="#!"><i class="icofont-telegram"></i></a></li>
+							<li class="list-inline-item"><a href="#!"><i class="icofont-instagram"></i></a></li>
+							<li class="list-inline-item"><a href="#!"><i class="icofont-skype"></i></a></li>
+							<li class="list-inline-item"><a href="#!"><i class="icofont-linkedin"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-8 col-md-6">
+				<div class="doctor-details mt-4 mt-lg-0">
+					<h2 class="text-md">{{doctor.full_name}} haqida ma'lumot</h2>
+					<div class="divider my-4"></div>
+					<p><i class="fa-solid fa-notes-medical"></i> {{doctor.description}}</p>
+					<p><i class="fa-sharp fa-solid fa-location-dot"></i> {{doctor.organization}}</p>
+
+					<a href="#" class="btn btn-main-2 btn-round-full mt-3">Qabulimga yozilish<i
+							class="icofont-simple-right ml-2"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="section doctor-qualification gray-bg">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="section-title">
+					<h3>Oliy Ta'lim</h3>
+					<div class="divider my-4"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-6 mb-4 mb-lg-0">
+				<div class="edu-block mb-5">
+			
+				</div>
+
+				<div class="edu-block">
+				</div>
+			</div>
+
+			<div class="col-lg-6">
+				<div class="edu-block mb-5">
+
+				</div>
+
+				<div class="edu-block">
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+{% endblock content %}

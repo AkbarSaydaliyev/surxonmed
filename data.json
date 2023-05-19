@@ -1,0 +1,1839 @@
+{
+    "hits": [
+        {
+            "service": "3D UZI",
+            "organization": {
+                "pk": 2,
+                "name": "O'TAN POLVON Xususiy klinikasi",
+                "address": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                "latitude": "37.2139602",
+                "longtitude": "67.2665761",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "image": "download.jpg",
+                "category": "Xususiy klinikalar",
+                "location": "Termiz",
+                "working_time": "9:00 - 18:00",
+                "phone_numbers": "+998762236153"
+            },
+            "description": "ichki azolarni tekshirish uchun xizmat",
+            "service_alias": "uzi, 3d",
+            "price": 50000,
+            "objectID": "5",
+            "_snippetResult": {
+                "service": {
+                    "value": "3D UZI",
+                    "matchLevel": "none"
+                },
+                "organization": {
+                    "pk": {
+                        "value": "2",
+                        "matchLevel": "none"
+                    },
+                    "name": {
+                        "value": "O'TAN POLVON Xususiy klinikasi",
+                        "matchLevel": "none"
+                    },
+                    "address": {
+                        "value": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                        "matchLevel": "none"
+                    },
+                    "latitude": {
+                        "value": "37.2139602",
+                        "matchLevel": "none"
+                    },
+                    "longtitude": {
+                        "value": "67.2665761",
+                        "matchLevel": "none"
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard …",
+                        "matchLevel": "none"
+                    },
+                    "image": {
+                        "value": "download.jpg",
+                        "matchLevel": "none"
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none"
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none"
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00",
+                        "matchLevel": "none"
+                    },
+                    "phone_numbers": {
+                        "value": "+998762236153",
+                        "matchLevel": "none"
+                    }
+                },
+                "description": {
+                    "value": "ichki azolarni tekshirish uchun xizmat",
+                    "matchLevel": "none"
+                },
+                "service_alias": {
+                    "value": "uzi, 3d",
+                    "matchLevel": "none"
+                },
+                "price": {
+                    "value": "50000.0",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "service": {
+                    "value": "3D UZI",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "organization": {
+                    "pk": {
+                        "value": "2",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "name": {
+                        "value": "O'TAN POLVON Xususiy klinikasi",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "address": {
+                        "value": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "latitude": {
+                        "value": "37.2139602",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "longtitude": {
+                        "value": "67.2665761",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "image": {
+                        "value": "download.jpg",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "phone_numbers": {
+                        "value": "+998762236153",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                },
+                "service_alias": {
+                    "value": "uzi, 3d",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 3,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "service": "tish qo'yish",
+            "organization": {
+                "pk": 4,
+                "name": "Termiz shahar 2-sonli oilaviy poliklinika",
+                "address": "Baxt ko'chasi 2-a uy",
+                "latitude": "37.242774042478416",
+                "longtitude": "67.28117265117889",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "image": "2021-01-03.jpg",
+                "category": "Davlat shifoxonalari",
+                "location": "Termiz",
+                "working_time": "24/7",
+                "phone_numbers": "+998972424077"
+            },
+            "description": "tish qoydirish uchun xizmat",
+            "service_alias": "tish qo'ydirish tish tish og'rig'i tish ogrigi tis",
+            "price": 120000,
+            "objectID": "4",
+            "_snippetResult": {
+                "service": {
+                    "value": "tish qo'yish",
+                    "matchLevel": "none"
+                },
+                "organization": {
+                    "pk": {
+                        "value": "4",
+                        "matchLevel": "none"
+                    },
+                    "name": {
+                        "value": "Termiz shahar 2-sonli oilaviy poliklinika",
+                        "matchLevel": "none"
+                    },
+                    "address": {
+                        "value": "Baxt ko'chasi 2-a uy",
+                        "matchLevel": "none"
+                    },
+                    "latitude": {
+                        "value": "37.242774042478416",
+                        "matchLevel": "none"
+                    },
+                    "longtitude": {
+                        "value": "67.28117265117889",
+                        "matchLevel": "none"
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                        "matchLevel": "none"
+                    },
+                    "image": {
+                        "value": "2021-01-03.jpg",
+                        "matchLevel": "none"
+                    },
+                    "category": {
+                        "value": "Davlat shifoxonalari",
+                        "matchLevel": "none"
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none"
+                    },
+                    "working_time": {
+                        "value": "24/7",
+                        "matchLevel": "none"
+                    },
+                    "phone_numbers": {
+                        "value": "+998972424077",
+                        "matchLevel": "none"
+                    }
+                },
+                "description": {
+                    "value": "tish qoydirish uchun xizmat",
+                    "matchLevel": "none"
+                },
+                "service_alias": {
+                    "value": "tish qo'ydirish tish tish og'rig'i tish ogrigi tis",
+                    "matchLevel": "none"
+                },
+                "price": {
+                    "value": "120000.0",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "service": {
+                    "value": "tish qo'yish",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "organization": {
+                    "pk": {
+                        "value": "4",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "name": {
+                        "value": "Termiz shahar 2-sonli oilaviy poliklinika",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "address": {
+                        "value": "Baxt ko'chasi 2-a uy",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "latitude": {
+                        "value": "37.242774042478416",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "longtitude": {
+                        "value": "67.28117265117889",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "image": {
+                        "value": "2021-01-03.jpg",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "category": {
+                        "value": "Davlat shifoxonalari",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "working_time": {
+                        "value": "24/7",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "phone_numbers": {
+                        "value": "+998972424077",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                },
+                "service_alias": {
+                    "value": "tish qo'ydirish tish tish og'rig'i tish ogrigi tis",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 2,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "service": "Tish olish",
+            "organization": {
+                "pk": 3,
+                "name": "Klinika Doktor A",
+                "address": "Alisher Navoi ko'chasi",
+                "latitude": "37.2423565055183",
+                "longtitude": "67.29926021126634",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                "image": "636.jpg",
+                "category": "Xususiy klinikalar",
+                "location": "Termiz",
+                "working_time": "9:00 - 18:00 Dushanba-Shanba",
+                "phone_numbers": "+998997109201"
+            },
+            "description": "tish kassalliklari bo'yicha xizmatlar",
+            "service_alias": "tish sug'urish. tish og'riq, tish",
+            "price": 25000,
+            "objectID": "3",
+            "_snippetResult": {
+                "service": {
+                    "value": "Tish olish",
+                    "matchLevel": "none"
+                },
+                "organization": {
+                    "pk": {
+                        "value": "3",
+                        "matchLevel": "none"
+                    },
+                    "name": {
+                        "value": "Klinika Doktor A",
+                        "matchLevel": "none"
+                    },
+                    "address": {
+                        "value": "Alisher Navoi ko'chasi",
+                        "matchLevel": "none"
+                    },
+                    "latitude": {
+                        "value": "37.2423565055183",
+                        "matchLevel": "none"
+                    },
+                    "longtitude": {
+                        "value": "67.29926021126634",
+                        "matchLevel": "none"
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                        "matchLevel": "none"
+                    },
+                    "image": {
+                        "value": "636.jpg",
+                        "matchLevel": "none"
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none"
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none"
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00 Dushanba-Shanba",
+                        "matchLevel": "none"
+                    },
+                    "phone_numbers": {
+                        "value": "+998997109201",
+                        "matchLevel": "none"
+                    }
+                },
+                "description": {
+                    "value": "tish kassalliklari bo'yicha xizmatlar",
+                    "matchLevel": "none"
+                },
+                "service_alias": {
+                    "value": "tish sug'urish. tish og'riq, tish",
+                    "matchLevel": "none"
+                },
+                "price": {
+                    "value": "25000.0",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "service": {
+                    "value": "Tish olish",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "organization": {
+                    "pk": {
+                        "value": "3",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "name": {
+                        "value": "Klinika Doktor A",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "address": {
+                        "value": "Alisher Navoi ko'chasi",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "latitude": {
+                        "value": "37.2423565055183",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "longtitude": {
+                        "value": "67.29926021126634",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "image": {
+                        "value": "636.jpg",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00 Dushanba-Shanba",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "phone_numbers": {
+                        "value": "+998997109201",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                },
+                "service_alias": {
+                    "value": "tish sug'urish. tish og'riq, tish",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 1,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "service": "Tish olish",
+            "organization": {
+                "pk": 2,
+                "name": "O'TAN POLVON Xususiy klinikasi",
+                "address": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                "latitude": "37.2139602",
+                "longtitude": "67.2665761",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "image": "download.jpg",
+                "category": "Xususiy klinikalar",
+                "location": "Termiz",
+                "working_time": "9:00 - 18:00",
+                "phone_numbers": "+998762236153"
+            },
+            "description": "tish kassalliklari bo'yicha xizmatlar",
+            "service_alias": "tish sug'urish. tish og'riq, tish",
+            "price": 30000,
+            "objectID": "2",
+            "_snippetResult": {
+                "service": {
+                    "value": "Tish olish",
+                    "matchLevel": "none"
+                },
+                "organization": {
+                    "pk": {
+                        "value": "2",
+                        "matchLevel": "none"
+                    },
+                    "name": {
+                        "value": "O'TAN POLVON Xususiy klinikasi",
+                        "matchLevel": "none"
+                    },
+                    "address": {
+                        "value": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                        "matchLevel": "none"
+                    },
+                    "latitude": {
+                        "value": "37.2139602",
+                        "matchLevel": "none"
+                    },
+                    "longtitude": {
+                        "value": "67.2665761",
+                        "matchLevel": "none"
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard …",
+                        "matchLevel": "none"
+                    },
+                    "image": {
+                        "value": "download.jpg",
+                        "matchLevel": "none"
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none"
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none"
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00",
+                        "matchLevel": "none"
+                    },
+                    "phone_numbers": {
+                        "value": "+998762236153",
+                        "matchLevel": "none"
+                    }
+                },
+                "description": {
+                    "value": "tish kassalliklari bo'yicha xizmatlar",
+                    "matchLevel": "none"
+                },
+                "service_alias": {
+                    "value": "tish sug'urish. tish og'riq, tish",
+                    "matchLevel": "none"
+                },
+                "price": {
+                    "value": "30000.0",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "service": {
+                    "value": "Tish olish",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "organization": {
+                    "pk": {
+                        "value": "2",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "name": {
+                        "value": "O'TAN POLVON Xususiy klinikasi",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "address": {
+                        "value": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "latitude": {
+                        "value": "37.2139602",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "longtitude": {
+                        "value": "67.2665761",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "image": {
+                        "value": "download.jpg",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    },
+                    "phone_numbers": {
+                        "value": "+998762236153",
+                        "matchLevel": "none",
+                        "matchedWords": []
+                    }
+                },
+                "service_alias": {
+                    "value": "tish sug'urish. tish og'riq, tish",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 0,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        }
+    ],
+    "nbHits": 4,
+    "page": 0,
+    "nbPages": 1,
+    "hitsPerPage": 10,
+    "facets": {},
+    "exhaustiveFacetsCount": true,
+    "exhaustiveNbHits": true,
+    "exhaustiveTypo": true,
+    "exhaustive": {
+        "facetsCount": true,
+        "nbHits": true,
+        "typo": true
+    },
+    "query": "",
+    "params": "analytics=false&attributesToRetrieve=%5B%22*%22%5D&attributesToSnippet=%5B%22*%3A20%22%5D&enableABTest=false&explain=%5B%22*%22%5D&facets=%5B%22*%22%5D&getRankingInfo=true&highlightPostTag=%3C%2Fais-highlight-0%3E&highlightPreTag=%3Cais-highlight-0%3E&hitsPerPage=10&page=0&query=&responseFields=%5B%22*%22%5D&snippetEllipsisText=%E2%80%A6&tagFilters=",
+    "index": "organization_service_index",
+    "serverUsed": "c11-de-3.algolia.net",
+    "indexUsed": "organization_service_index",
+    "parsedQuery": "",
+    "timeoutCounts": false,
+    "timeoutHits": false,
+    "explain": {
+        "match": {
+            "alternatives": []
+        },
+        "params": {
+            "client": {
+                "query": "",
+                "analytics": false,
+                "page": 0,
+                "hitsPerPage": 10,
+                "attributesToRetrieve": [
+                    "*"
+                ],
+                "attributesToSnippet": [
+                    "*:20"
+                ],
+                "getRankingInfo": true,
+                "highlightPreTag": "<em>",
+                "highlightPostTag": "</em>",
+                "snippetEllipsisText": "…",
+                "tagFilters": [],
+                "facets": [
+                    "*"
+                ],
+                "responseFields": [
+                    "exhaustive",
+                    "exhaustiveFacetValues",
+                    "facets_stats",
+                    "extensions",
+                    "renderingContent",
+                    "userData",
+                    "aroundLatLng",
+                    "queryAfterRemoval",
+                    "exhaustiveFacetsCount",
+                    "length",
+                    "params",
+                    "processingTimingsMS",
+                    "facets",
+                    "offset",
+                    "hitsPerPage",
+                    "automaticRadius",
+                    "processingTimeMS",
+                    "nbPages",
+                    "page",
+                    "index",
+                    "nbHits",
+                    "exhaustiveTypo",
+                    "exhaustiveNbHits",
+                    "query",
+                    "hits"
+                ],
+                "enableABTest": false,
+                "explain": true
+            },
+            "apiKey": {},
+            "abTest": {},
+            "rules": {},
+            "final": {
+                "query": "",
+                "analytics": false,
+                "page": 0,
+                "hitsPerPage": 10,
+                "attributesToRetrieve": [
+                    "*"
+                ],
+                "attributesToSnippet": [
+                    "*:20"
+                ],
+                "getRankingInfo": true,
+                "highlightPreTag": "<em>",
+                "highlightPostTag": "</em>",
+                "snippetEllipsisText": "…",
+                "tagFilters": [],
+                "facets": [
+                    "*"
+                ],
+                "responseFields": [
+                    "exhaustive",
+                    "exhaustiveFacetValues",
+                    "facets_stats",
+                    "extensions",
+                    "renderingContent",
+                    "userData",
+                    "aroundLatLng",
+                    "queryAfterRemoval",
+                    "exhaustiveFacetsCount",
+                    "length",
+                    "params",
+                    "processingTimingsMS",
+                    "facets",
+                    "offset",
+                    "hitsPerPage",
+                    "automaticRadius",
+                    "processingTimeMS",
+                    "nbPages",
+                    "page",
+                    "index",
+                    "nbHits",
+                    "exhaustiveTypo",
+                    "exhaustiveNbHits",
+                    "query",
+                    "hits"
+                ],
+                "enableABTest": false,
+                "explain": true
+            }
+        }
+    },
+    "renderingContent": {},
+    "processingTimeMS": 1
+},
+
+
+{
+    "hits": [
+        {
+            "full_name": "Komiliy Gulxayo Baxodirovna",
+            "photo": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download_b5T6b7r.png",
+            "categories": [
+                "Kardiolog"
+            ],
+            "organization": {
+                "pk": 3,
+                "name": "Klinika Doktor A",
+                "address": "Alisher Navoi ko'chasi",
+                "latitude": "37.2423565055183",
+                "longtitude": "67.29926021126634",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                "image": "636.jpg",
+                "category": "Xususiy klinikalar",
+                "location": "Termiz",
+                "working_time": "9:00 - 18:00 Dushanba-Shanba",
+                "phone_numbers": "+998997109201"
+            },
+            "description": "tish oluvchi shifokor",
+            "objectID": "5",
+            "_snippetResult": {
+                "full_name": {
+                    "value": "Komiliy Gulxayo Baxodirovna",
+                    "matchLevel": "none"
+                },
+                "photo": {
+                    "value": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download_b5T6b7r.png",
+                    "matchLevel": "none"
+                },
+                "categories": [
+                    {
+                        "value": "Kardiolog",
+                        "matchLevel": "none"
+                    }
+                ],
+                "organization": {
+                    "pk": {
+                        "value": "3",
+                        "matchLevel": "none"
+                    },
+                    "name": {
+                        "value": "Klinika Doktor A",
+                        "matchLevel": "none"
+                    },
+                    "address": {
+                        "value": "Alisher Navoi ko'chasi",
+                        "matchLevel": "none"
+                    },
+                    "latitude": {
+                        "value": "37.2423565055183",
+                        "matchLevel": "none"
+                    },
+                    "longtitude": {
+                        "value": "67.29926021126634",
+                        "matchLevel": "none"
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                        "matchLevel": "none"
+                    },
+                    "image": {
+                        "value": "636.jpg",
+                        "matchLevel": "none"
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none"
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none"
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00 Dushanba-Shanba",
+                        "matchLevel": "none"
+                    },
+                    "phone_numbers": {
+                        "value": "+998997109201",
+                        "matchLevel": "none"
+                    }
+                },
+                "description": {
+                    "value": "tish oluvchi shifokor",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "full_name": {
+                    "value": "Komiliy Gulxayo Baxodirovna",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 4,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "full_name": "Исматов Ботир Турабаевич",
+            "photo": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download_AUYR9WB.png",
+            "categories": [
+                "Kardiolog",
+                "Stamatolog"
+            ],
+            "organization": {
+                "pk": 2,
+                "name": "O'TAN POLVON Xususiy klinikasi",
+                "address": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                "latitude": "37.2139602",
+                "longtitude": "67.2665761",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "image": "download.jpg",
+                "category": "Xususiy klinikalar",
+                "location": "Termiz",
+                "working_time": "9:00 - 18:00",
+                "phone_numbers": "+998762236153"
+            },
+            "description": "Yurak kasalliklari boyicha shifokor",
+            "objectID": "4",
+            "_snippetResult": {
+                "full_name": {
+                    "value": "Исматов Ботир Турабаевич",
+                    "matchLevel": "none"
+                },
+                "photo": {
+                    "value": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download_AUYR9WB.png",
+                    "matchLevel": "none"
+                },
+                "categories": [
+                    {
+                        "value": "Kardiolog",
+                        "matchLevel": "none"
+                    },
+                    {
+                        "value": "Stamatolog",
+                        "matchLevel": "none"
+                    }
+                ],
+                "organization": {
+                    "pk": {
+                        "value": "2",
+                        "matchLevel": "none"
+                    },
+                    "name": {
+                        "value": "O'TAN POLVON Xususiy klinikasi",
+                        "matchLevel": "none"
+                    },
+                    "address": {
+                        "value": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                        "matchLevel": "none"
+                    },
+                    "latitude": {
+                        "value": "37.2139602",
+                        "matchLevel": "none"
+                    },
+                    "longtitude": {
+                        "value": "67.2665761",
+                        "matchLevel": "none"
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard …",
+                        "matchLevel": "none"
+                    },
+                    "image": {
+                        "value": "download.jpg",
+                        "matchLevel": "none"
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none"
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none"
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00",
+                        "matchLevel": "none"
+                    },
+                    "phone_numbers": {
+                        "value": "+998762236153",
+                        "matchLevel": "none"
+                    }
+                },
+                "description": {
+                    "value": "Yurak kasalliklari boyicha shifokor",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "full_name": {
+                    "value": "Исматов Ботир Турабаевич",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 3,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "full_name": "Sherali Qilichov",
+            "photo": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download_L9GdIRc.png",
+            "categories": [
+                "Kardiolog",
+                "Stamatolog"
+            ],
+            "organization": {
+                "pk": 2,
+                "name": "O'TAN POLVON Xususiy klinikasi",
+                "address": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                "latitude": "37.2139602",
+                "longtitude": "67.2665761",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "image": "download.jpg",
+                "category": "Xususiy klinikalar",
+                "location": "Termiz",
+                "working_time": "9:00 - 18:00",
+                "phone_numbers": "+998762236153"
+            },
+            "description": "Oshqozon kasalliklarni davolovchi shifokor",
+            "objectID": "3",
+            "_snippetResult": {
+                "full_name": {
+                    "value": "Sherali Qilichov",
+                    "matchLevel": "none"
+                },
+                "photo": {
+                    "value": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download_L9GdIRc.png",
+                    "matchLevel": "none"
+                },
+                "categories": [
+                    {
+                        "value": "Kardiolog",
+                        "matchLevel": "none"
+                    },
+                    {
+                        "value": "Stamatolog",
+                        "matchLevel": "none"
+                    }
+                ],
+                "organization": {
+                    "pk": {
+                        "value": "2",
+                        "matchLevel": "none"
+                    },
+                    "name": {
+                        "value": "O'TAN POLVON Xususiy klinikasi",
+                        "matchLevel": "none"
+                    },
+                    "address": {
+                        "value": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                        "matchLevel": "none"
+                    },
+                    "latitude": {
+                        "value": "37.2139602",
+                        "matchLevel": "none"
+                    },
+                    "longtitude": {
+                        "value": "67.2665761",
+                        "matchLevel": "none"
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard …",
+                        "matchLevel": "none"
+                    },
+                    "image": {
+                        "value": "download.jpg",
+                        "matchLevel": "none"
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none"
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none"
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00",
+                        "matchLevel": "none"
+                    },
+                    "phone_numbers": {
+                        "value": "+998762236153",
+                        "matchLevel": "none"
+                    }
+                },
+                "description": {
+                    "value": "Oshqozon kasalliklarni davolovchi shifokor",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "full_name": {
+                    "value": "Sherali Qilichov",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 2,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "full_name": "Erkin Samadov",
+            "photo": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download_Jh0JlL8.png",
+            "categories": [
+                "Kardiolog"
+            ],
+            "organization": {
+                "pk": 4,
+                "name": "Termiz shahar 2-sonli oilaviy poliklinika",
+                "address": "Baxt ko'chasi 2-a uy",
+                "latitude": "37.242774042478416",
+                "longtitude": "67.28117265117889",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                "image": "2021-01-03.jpg",
+                "category": "Davlat shifoxonalari",
+                "location": "Termiz",
+                "working_time": "24/7",
+                "phone_numbers": "+998972424077"
+            },
+            "description": "Yurak qon tomir kasalliklarini davolovchi shifokor",
+            "objectID": "2",
+            "_snippetResult": {
+                "full_name": {
+                    "value": "Erkin Samadov",
+                    "matchLevel": "none"
+                },
+                "photo": {
+                    "value": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download_Jh0JlL8.png",
+                    "matchLevel": "none"
+                },
+                "categories": [
+                    {
+                        "value": "Kardiolog",
+                        "matchLevel": "none"
+                    }
+                ],
+                "organization": {
+                    "pk": {
+                        "value": "4",
+                        "matchLevel": "none"
+                    },
+                    "name": {
+                        "value": "Termiz shahar 2-sonli oilaviy poliklinika",
+                        "matchLevel": "none"
+                    },
+                    "address": {
+                        "value": "Baxt ko'chasi 2-a uy",
+                        "matchLevel": "none"
+                    },
+                    "latitude": {
+                        "value": "37.242774042478416",
+                        "matchLevel": "none"
+                    },
+                    "longtitude": {
+                        "value": "67.28117265117889",
+                        "matchLevel": "none"
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                        "matchLevel": "none"
+                    },
+                    "image": {
+                        "value": "2021-01-03.jpg",
+                        "matchLevel": "none"
+                    },
+                    "category": {
+                        "value": "Davlat shifoxonalari",
+                        "matchLevel": "none"
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none"
+                    },
+                    "working_time": {
+                        "value": "24/7",
+                        "matchLevel": "none"
+                    },
+                    "phone_numbers": {
+                        "value": "+998972424077",
+                        "matchLevel": "none"
+                    }
+                },
+                "description": {
+                    "value": "Yurak qon tomir kasalliklarini davolovchi shifokor",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "full_name": {
+                    "value": "Erkin Samadov",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 1,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "full_name": "Javohir Sultonov",
+            "photo": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download.png",
+            "categories": [
+                "Stamatolog"
+            ],
+            "organization": {
+                "pk": 2,
+                "name": "O'TAN POLVON Xususiy klinikasi",
+                "address": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                "latitude": "37.2139602",
+                "longtitude": "67.2665761",
+                "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                "image": "download.jpg",
+                "category": "Xususiy klinikalar",
+                "location": "Termiz",
+                "working_time": "9:00 - 18:00",
+                "phone_numbers": "+998762236153"
+            },
+            "description": "Tish kasalliklarini davolovchi stamatolog",
+            "objectID": "1",
+            "_snippetResult": {
+                "full_name": {
+                    "value": "Javohir Sultonov",
+                    "matchLevel": "none"
+                },
+                "photo": {
+                    "value": "/uploads/24-248253_user-profile-default-image-png-clipart-png-download.png",
+                    "matchLevel": "none"
+                },
+                "categories": [
+                    {
+                        "value": "Stamatolog",
+                        "matchLevel": "none"
+                    }
+                ],
+                "organization": {
+                    "pk": {
+                        "value": "2",
+                        "matchLevel": "none"
+                    },
+                    "name": {
+                        "value": "O'TAN POLVON Xususiy klinikasi",
+                        "matchLevel": "none"
+                    },
+                    "address": {
+                        "value": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                        "matchLevel": "none"
+                    },
+                    "latitude": {
+                        "value": "37.2139602",
+                        "matchLevel": "none"
+                    },
+                    "longtitude": {
+                        "value": "67.2665761",
+                        "matchLevel": "none"
+                    },
+                    "description": {
+                        "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard …",
+                        "matchLevel": "none"
+                    },
+                    "image": {
+                        "value": "download.jpg",
+                        "matchLevel": "none"
+                    },
+                    "category": {
+                        "value": "Xususiy klinikalar",
+                        "matchLevel": "none"
+                    },
+                    "location": {
+                        "value": "Termiz",
+                        "matchLevel": "none"
+                    },
+                    "working_time": {
+                        "value": "9:00 - 18:00",
+                        "matchLevel": "none"
+                    },
+                    "phone_numbers": {
+                        "value": "+998762236153",
+                        "matchLevel": "none"
+                    }
+                },
+                "description": {
+                    "value": "Tish kasalliklarini davolovchi stamatolog",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "full_name": {
+                    "value": "Javohir Sultonov",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 0,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        }
+    ],
+    "nbHits": 5,
+    "page": 0,
+    "nbPages": 1,
+    "hitsPerPage": 10,
+    "facets": {},
+    "exhaustiveFacetsCount": true,
+    "exhaustiveNbHits": true,
+    "exhaustiveTypo": true,
+    "exhaustive": {
+        "facetsCount": true,
+        "nbHits": true,
+        "typo": true
+    },
+    "query": "",
+    "params": "analytics=false&attributesToRetrieve=%5B%22*%22%5D&attributesToSnippet=%5B%22*%3A20%22%5D&enableABTest=false&explain=%5B%22*%22%5D&facets=%5B%22*%22%5D&getRankingInfo=true&highlightPostTag=%3C%2Fais-highlight-0%3E&highlightPreTag=%3Cais-highlight-0%3E&hitsPerPage=10&page=0&query=&responseFields=%5B%22*%22%5D&snippetEllipsisText=%E2%80%A6&tagFilters=",
+    "index": "specialist_index",
+    "serverUsed": "c11-de-1.algolia.net",
+    "indexUsed": "specialist_index",
+    "parsedQuery": "",
+    "timeoutCounts": false,
+    "timeoutHits": false,
+    "explain": {
+        "match": {
+            "alternatives": []
+        },
+        "params": {
+            "client": {
+                "query": "",
+                "analytics": false,
+                "page": 0,
+                "hitsPerPage": 10,
+                "attributesToRetrieve": [
+                    "*"
+                ],
+                "attributesToSnippet": [
+                    "*:20"
+                ],
+                "getRankingInfo": true,
+                "highlightPreTag": "<em>",
+                "highlightPostTag": "</em>",
+                "snippetEllipsisText": "…",
+                "tagFilters": [],
+                "facets": [
+                    "*"
+                ],
+                "responseFields": [
+                    "exhaustive",
+                    "exhaustiveFacetValues",
+                    "facets_stats",
+                    "extensions",
+                    "renderingContent",
+                    "userData",
+                    "aroundLatLng",
+                    "queryAfterRemoval",
+                    "exhaustiveFacetsCount",
+                    "length",
+                    "params",
+                    "processingTimingsMS",
+                    "facets",
+                    "offset",
+                    "hitsPerPage",
+                    "automaticRadius",
+                    "processingTimeMS",
+                    "nbPages",
+                    "page",
+                    "index",
+                    "nbHits",
+                    "exhaustiveTypo",
+                    "exhaustiveNbHits",
+                    "query",
+                    "hits"
+                ],
+                "enableABTest": false,
+                "explain": true
+            },
+            "apiKey": {},
+            "abTest": {},
+            "rules": {},
+            "final": {
+                "query": "",
+                "analytics": false,
+                "page": 0,
+                "hitsPerPage": 10,
+                "attributesToRetrieve": [
+                    "*"
+                ],
+                "attributesToSnippet": [
+                    "*:20"
+                ],
+                "getRankingInfo": true,
+                "highlightPreTag": "<em>",
+                "highlightPostTag": "</em>",
+                "snippetEllipsisText": "…",
+                "tagFilters": [],
+                "facets": [
+                    "*"
+                ],
+                "responseFields": [
+                    "exhaustive",
+                    "exhaustiveFacetValues",
+                    "facets_stats",
+                    "extensions",
+                    "renderingContent",
+                    "userData",
+                    "aroundLatLng",
+                    "queryAfterRemoval",
+                    "exhaustiveFacetsCount",
+                    "length",
+                    "params",
+                    "processingTimingsMS",
+                    "facets",
+                    "offset",
+                    "hitsPerPage",
+                    "automaticRadius",
+                    "processingTimeMS",
+                    "nbPages",
+                    "page",
+                    "index",
+                    "nbHits",
+                    "exhaustiveTypo",
+                    "exhaustiveNbHits",
+                    "query",
+                    "hits"
+                ],
+                "enableABTest": false,
+                "explain": true
+            }
+        }
+    },
+    "renderingContent": {},
+    "processingTimeMS": 1
+}
+
+
+{
+    "hits": [
+        {
+            "name": "Termiz shahar 2-sonli oilaviy poliklinika",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "image": "2021-01-03.jpg",
+            "category": "Davlat shifoxonalari",
+            "location": "Termiz",
+            "working_time": "24/7",
+            "address": "Baxt ko'chasi 2-a uy",
+            "latitude": "37.242774042478416",
+            "longtitude": "67.28117265117889",
+            "phone_numbers": "+998972424077",
+            "objectID": "4",
+            "_snippetResult": {
+                "name": {
+                    "value": "Termiz shahar 2-sonli oilaviy poliklinika",
+                    "matchLevel": "none"
+                },
+                "description": {
+                    "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "matchLevel": "none"
+                },
+                "image": {
+                    "value": "2021-01-03.jpg",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Davlat shifoxonalari",
+                    "matchLevel": "none"
+                },
+                "location": {
+                    "value": "Termiz",
+                    "matchLevel": "none"
+                },
+                "working_time": {
+                    "value": "24/7",
+                    "matchLevel": "none"
+                },
+                "address": {
+                    "value": "Baxt ko'chasi 2-a uy",
+                    "matchLevel": "none"
+                },
+                "latitude": {
+                    "value": "37.242774042478416",
+                    "matchLevel": "none"
+                },
+                "longtitude": {
+                    "value": "67.28117265117889",
+                    "matchLevel": "none"
+                },
+                "phone_numbers": {
+                    "value": "+998972424077",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Termiz shahar 2-sonli oilaviy poliklinika",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Davlat shifoxonalari",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 2,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "name": "Klinika Doktor A",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+            "image": "636.jpg",
+            "category": "Xususiy klinikalar",
+            "location": "Termiz",
+            "working_time": "9:00 - 18:00 Dushanba-Shanba",
+            "address": "Alisher Navoi ko'chasi",
+            "latitude": "37.2423565055183",
+            "longtitude": "67.29926021126634",
+            "phone_numbers": "+998997109201",
+            "objectID": "3",
+            "_snippetResult": {
+                "name": {
+                    "value": "Klinika Doktor A",
+                    "matchLevel": "none"
+                },
+                "description": {
+                    "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "matchLevel": "none"
+                },
+                "image": {
+                    "value": "636.jpg",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Xususiy klinikalar",
+                    "matchLevel": "none"
+                },
+                "location": {
+                    "value": "Termiz",
+                    "matchLevel": "none"
+                },
+                "working_time": {
+                    "value": "9:00 - 18:00 Dushanba-Shanba",
+                    "matchLevel": "none"
+                },
+                "address": {
+                    "value": "Alisher Navoi ko'chasi",
+                    "matchLevel": "none"
+                },
+                "latitude": {
+                    "value": "37.2423565055183",
+                    "matchLevel": "none"
+                },
+                "longtitude": {
+                    "value": "67.29926021126634",
+                    "matchLevel": "none"
+                },
+                "phone_numbers": {
+                    "value": "+998997109201",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "Klinika Doktor A",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Xususiy klinikalar",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 1,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        },
+        {
+            "name": "O'TAN POLVON Xususiy klinikasi",
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "image": "download.jpg",
+            "category": "Xususiy klinikalar",
+            "location": "Termiz",
+            "working_time": "9:00 - 18:00",
+            "address": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+            "latitude": "37.2139602",
+            "longtitude": "67.2665761",
+            "phone_numbers": "+998762236153",
+            "objectID": "2",
+            "_snippetResult": {
+                "name": {
+                    "value": "O'TAN POLVON Xususiy klinikasi",
+                    "matchLevel": "none"
+                },
+                "description": {
+                    "value": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard …",
+                    "matchLevel": "none"
+                },
+                "image": {
+                    "value": "download.jpg",
+                    "matchLevel": "none"
+                },
+                "category": {
+                    "value": "Xususiy klinikalar",
+                    "matchLevel": "none"
+                },
+                "location": {
+                    "value": "Termiz",
+                    "matchLevel": "none"
+                },
+                "working_time": {
+                    "value": "9:00 - 18:00",
+                    "matchLevel": "none"
+                },
+                "address": {
+                    "value": "Surxandaryo viloyati, Termiz, ko'chasi IBN SINO, 4 А",
+                    "matchLevel": "none"
+                },
+                "latitude": {
+                    "value": "37.2139602",
+                    "matchLevel": "none"
+                },
+                "longtitude": {
+                    "value": "67.2665761",
+                    "matchLevel": "none"
+                },
+                "phone_numbers": {
+                    "value": "+998762236153",
+                    "matchLevel": "none"
+                }
+            },
+            "_highlightResult": {
+                "name": {
+                    "value": "O'TAN POLVON Xususiy klinikasi",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                },
+                "category": {
+                    "value": "Xususiy klinikalar",
+                    "matchLevel": "none",
+                    "matchedWords": []
+                }
+            },
+            "_rankingInfo": {
+                "nbTypos": 0,
+                "firstMatchedWord": 0,
+                "proximityDistance": 0,
+                "userScore": 0,
+                "geoDistance": 0,
+                "geoPrecision": 0,
+                "nbExactWords": 0,
+                "words": 0,
+                "filters": 0
+            }
+        }
+    ],
+    "nbHits": 3,
+    "page": 0,
+    "nbPages": 1,
+    "hitsPerPage": 10,
+    "facets": {},
+    "exhaustiveFacetsCount": true,
+    "exhaustiveNbHits": true,
+    "exhaustiveTypo": true,
+    "exhaustive": {
+        "facetsCount": true,
+        "nbHits": true,
+        "typo": true
+    },
+    "query": "",
+    "params": "analytics=false&attributesToRetrieve=%5B%22*%22%5D&attributesToSnippet=%5B%22*%3A20%22%5D&enableABTest=false&explain=%5B%22*%22%5D&facets=%5B%22*%22%5D&getRankingInfo=true&highlightPostTag=%3C%2Fais-highlight-0%3E&highlightPreTag=%3Cais-highlight-0%3E&hitsPerPage=10&page=0&query=&responseFields=%5B%22*%22%5D&snippetEllipsisText=%E2%80%A6&tagFilters=",
+    "index": "organization_index",
+    "serverUsed": "c11-de-3.algolia.net",
+    "indexUsed": "organization_index",
+    "parsedQuery": "",
+    "timeoutCounts": false,
+    "timeoutHits": false,
+    "explain": {
+        "match": {
+            "alternatives": []
+        },
+        "params": {
+            "client": {
+                "query": "",
+                "analytics": false,
+                "page": 0,
+                "hitsPerPage": 10,
+                "attributesToRetrieve": [
+                    "*"
+                ],
+                "attributesToSnippet": [
+                    "*:20"
+                ],
+                "getRankingInfo": true,
+                "highlightPreTag": "<em>",
+                "highlightPostTag": "</em>",
+                "snippetEllipsisText": "…",
+                "tagFilters": [],
+                "facets": [
+                    "*"
+                ],
+                "responseFields": [
+                    "exhaustive",
+                    "exhaustiveFacetValues",
+                    "facets_stats",
+                    "extensions",
+                    "renderingContent",
+                    "userData",
+                    "aroundLatLng",
+                    "queryAfterRemoval",
+                    "exhaustiveFacetsCount",
+                    "length",
+                    "params",
+                    "processingTimingsMS",
+                    "facets",
+                    "offset",
+                    "hitsPerPage",
+                    "automaticRadius",
+                    "processingTimeMS",
+                    "nbPages",
+                    "page",
+                    "index",
+                    "nbHits",
+                    "exhaustiveTypo",
+                    "exhaustiveNbHits",
+                    "query",
+                    "hits"
+                ],
+                "enableABTest": false,
+                "explain": true
+            },
+            "apiKey": {},
+            "abTest": {},
+            "rules": {},
+            "final": {
+                "query": "",
+                "analytics": false,
+                "page": 0,
+                "hitsPerPage": 10,
+                "attributesToRetrieve": [
+                    "*"
+                ],
+                "attributesToSnippet": [
+                    "*:20"
+                ],
+                "getRankingInfo": true,
+                "highlightPreTag": "<em>",
+                "highlightPostTag": "</em>",
+                "snippetEllipsisText": "…",
+                "tagFilters": [],
+                "facets": [
+                    "*"
+                ],
+                "responseFields": [
+                    "exhaustive",
+                    "exhaustiveFacetValues",
+                    "facets_stats",
+                    "extensions",
+                    "renderingContent",
+                    "userData",
+                    "aroundLatLng",
+                    "queryAfterRemoval",
+                    "exhaustiveFacetsCount",
+                    "length",
+                    "params",
+                    "processingTimingsMS",
+                    "facets",
+                    "offset",
+                    "hitsPerPage",
+                    "automaticRadius",
+                    "processingTimeMS",
+                    "nbPages",
+                    "page",
+                    "index",
+                    "nbHits",
+                    "exhaustiveTypo",
+                    "exhaustiveNbHits",
+                    "query",
+                    "hits"
+                ],
+                "enableABTest": false,
+                "explain": true
+            }
+        }
+    },
+    "renderingContent": {},
+    "processingTimeMS": 1
+}

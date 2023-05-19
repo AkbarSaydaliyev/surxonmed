@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+python-decouple = "==3.6"
+pillow = "==9.1.0"
+psycopg2-binary = "==2.9.2"
+whitenoise = "==5.1.0"
+algoliasearch-django = "*"
+algoliasearch = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

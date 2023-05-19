@@ -1,0 +1,50 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="section doctors">
+    <div class="container">
+  	    <div class="row justify-content-center">
+             <div class="col-lg-6 text-center">
+                <div class="section-title">
+                    <h2>Tibbiy xizmatlar</h2>
+                    <div class="divider mx-auto my-4"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-12 text-center  mb-5">
+	        <div class="btn-group btn-group-toggle d-inline-block" data-toggle="buttons">
+	          <label class="btn active ">
+	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />Barcha xizmatlar
+	          </label>
+			  {% for category in service_category %}
+				<label class="btn">
+					<input type="radio" name="shuffle-filter" value="{{category.name}}" />{{category.name}}
+				</label>
+			  {% endfor %}
+	          
+	        </div>
+      </div>
+        
+        <div class="row shuffle-wrapper portfolio-gallery">
+            {% for service in services %}
+                <div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;{{service.service.category.name}}&quot;]">
+                    <div class="position-relative doctor-inner-box">
+                        <div class="doctor-profile">
+                            <div class="doctor-img">
+                                <img src="{{service.image.url}}" alt="{{service.service.name}}" class="img-fluid w-100">
+                            </div>
+                        </div>
+                        <div class="content mt-3">
+                            <h4 class="mb-0"><a href="#">{{service.service.name}}</a></h4>
+                            <p>{{service.service.category.name}}</p>
+                            <span class="badge badge-info text-sm">{{service.price|add:0}} so'm</span>
+                        </div> 
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock content %}

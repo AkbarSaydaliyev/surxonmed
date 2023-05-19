@@ -1,0 +1,69 @@
+{% load static %}
+
+<script src="{% static 'plugins/jquery/jquery.js' %}"></script>
+<script src="{% static 'plugins/bootstrap/bootstrap.min.js' %}"></script>
+<script src="{% static 'plugins/slick-carousel/slick/slick.min.js' %}"></script>
+<script src="{% static 'plugins/shuffle/shuffle.min.js' %}"></script>
+
+<script src="{% static 'js/script.js' %}"></script>
+
+	
+	{% comment %} <script>
+	function initMap() {
+	const map = new google.maps.Map(document.getElementById("map"), {
+	  zoom: 12,
+	  center: { lat: 37.25107713059979, lng: 67.30962705523636 },
+	});
+	const infoWindow = new google.maps.InfoWindow({
+	  content: "",
+	  disableAutoPan: true,
+	});
+	// Add some markers to the map.
+	const markers = locations.map((position, i) => {
+	  const marker = new google.maps.Marker({
+		position: new google.maps.LatLng(position.lat, position.lng),
+		label: position.label,
+		// icon: 'info'
+	  });
+  
+	  // markers can only be keyboard focusable when they have click listeners
+	  // open info window when marker is clicked
+	  marker.addListener("click", () => {
+		infoWindow.setContent(label);
+		infoWindow.open(map, marker);
+	  });
+	  return marker;
+	});
+  
+	// Add a marker clusterer to manage the markers.
+	const markerCluster = new markerClusterer.MarkerClusterer({ map, markers });
+  	}
+  
+	const locations = [
+		{
+			label: 'Utan Palvon',
+			lat: 37.21395596522872,
+			lng: 67.26998249828263,
+		},
+		{
+			label: 'Mashhura Klinikasi',
+			lat: 37.23592728891454,
+			lng: 67.26260095020207,
+		},
+		{
+			label: 'Surxon Shifo',
+			lat: 37.21606605170777,
+			lng: 67.26945938834764,
+		},
+	];
+	
+	window.initMap = initMap;
+	</script> {% endcomment %}
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfLINfVfMXFS03PeH_IgfL_8STaGhtJrU&callback=initMap&v=weekly"
+      defer
+    ></script>
+{% comment %} <script src="{% static 'plugins/google-map/gmap.js' %}"></script> {% endcomment %}
+
+
+

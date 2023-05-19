@@ -1,0 +1,20 @@
+<div class="row">
+    <div class="col-lg-6 col-md-12 col-xl-7">
+        <div class="block">
+            <div class="divider mb-3"></div>
+            <h2 class="mb-3 mt-3">Kasalxona va tibbiy tahlil markazlari</h2>
+        </div>
+        <div class='form-row'>
+            <div class="col-10">
+                <form method="GET" action="{% url 'search-result' %}">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-search"></i></span>
+                        </div>
+                        <input type="text" name="search" class="form-control" placeholder="Klinika, shifokor, xizmatlar...">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

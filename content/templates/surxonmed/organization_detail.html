@@ -1,0 +1,182 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mt-5">
+                <div class="card mb-2 p-2">
+                    <div class="d-flex">
+                        <div class="p-1 flex-fill">
+                            <img class="mb-2" src="{{organization.image.url}}" alt="{{organization.image.name}}" width="100" height="100">
+                            <div class="d-flex mb-1">
+                                <i class="text-warning fas fa-star"></i>
+                                <i class="text-warning fas fa-star"></i>
+                                <i class="text-warning fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div><a class="badge badge-light" href="#">{{organization_feedbacks.count}} fikr mulohaza</a></div>
+                        </div>
+                        <div class="p-1 flex-fill flex-grow-1">
+                            <h6>{{organization.name}}</h6>
+                            <p style="font-size: 14px; line-height: 1.4">{{organization.description}}<p>
+
+                            {% if organization.telegram %}
+                                <a href="{{organization.telegram}}"><i class="fa-brands fa-telegram fa-2x"></a></i>
+                            {% endif %}
+                            {% if organization.instagram%}
+                                <a href="{{organization.instagram}}"><i class="fa-brands fa-instagram fa-2x"></a></i>
+                            {% endif %}
+                            
+                        </div>
+                        <div class="col-md-3">
+                            <p class="text-sm mb-0">
+                                <i class="fa-sharp fa-solid fa-location-dot"></i> 
+                                {{organization.location}}, {{organization.address}}
+                            </p>
+                            <p class="text-sm mb-0">
+                                <i class="fa-regular fa-clock"></i> 
+                                {{organization.working_time}}
+                            </p>
+                            <p class="text-sm">
+                            <i class="fa-sharp fa-solid fa-phone"></i> 
+                            <a href="tel:{{organization.phone_numbers}}">{{organization.phone_numbers}}</a>
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" id="information-tab" data-toggle="tab" href="#information" role="tab" aria-controls="information" aria-selected="true">Ma'lumot</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="doctor-tab" data-toggle="tab" href="#doctor" role="tab" aria-controls="doctor" aria-selected="false">Shifokorlar</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="service" aria-selected="false">Xizmatlar</a>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link" id="gallery-tab" data-toggle="tab" href="#gallery" role="tab" aria-controls="gallery" aria-selected="false">Galereya</a>
+                            </li>
+                    </ul>
+                    <div class="tab-content p-2" id="myTabContent">
+                        <div class="tab-pane fade show active mt-3" id="information" role="tabpanel" aria-labelledby="home-tab">
+                            <h3>{{organization.name}} haqia ma'lumot</h3>
+                            <p>{{organization.description}}</p>
+                            <h3>Geolokatsiyasi</h3>
+                            <div id="map" style="height: 400px;, width=100px"></div>
+                    </div>
+                    <div class="tab-pane fade" id="doctor" role="tabpanel" aria-labelledby="doctor-tab">
+                        <h3 class='mt-3'>{{organization.name}} shifokorlari</h3>
+                        <div class="row">
+                            <div class="col mt-5">
+                                {% for doctor in organization_doctors %}
+                                    <div class="card mb-3 p-2">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <img class="mb-2" src="{{doctor.photo.url}}" alt="{{doctor.full_name}}" width="120" height="120">
+                                                <div>
+                                                    <i class="text-warning fas fa-star checked"></i>
+                                                    <i class="text-warning fas fa-star checked"></i>
+                                                    <i class="text-warning fas fa-star checked"></i>
+                                                    <i class="fas fa-star checked"></i>
+                                                </i><i class="fas fa-star checked"></i>
+                                            </div>
+                                                <div><a class="badge badge-light" href="#">2 fikr-mulohaza</a></div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <h6>{{doctor.full_name}}</h6>
+                                                <p style="font-size: 14px; line-height: 1.4">{{doctor.description}}<p>
+                                                <p>{{doctor.category.name}}</p>
+                                            </div>
+                                            <div class="col-sm-3">
+                                                <div>
+                                                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                                    <p style="font-size: 12px; display: inline;">{{doctor.organization}}</p>
+                                                </div>
+                                                <p></p>
+                                                <div>
+                                                   <button class="btn btn-sm btn-info"><i class="fa-solid fa-calendar-check"></i> Qabuliga yozilish</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="service" role="tabpanel" aria-labelledby="service-tab">
+                        <div class="container">
+                                <h3 class="ml-3 mt-2">Tibbiy xizmatlar</h3>
+                                <ul class="list-group list-group-flush">
+                                    {% for service in organization_services %}
+                                        <li class="list-group-item mr-4">{{service.service}}: <span class="badge badge-info text-sm d-inline ml-5">{{service.price|add:0}} so'm</span></li>
+                                    {% endfor %}
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="gallery" role="tabpanel" aria-labelledby="gallery-tab">
+                        <div class="d-flex">
+                            <div class="container">
+                                <div class="row m-1">
+                                    {% for image in organization_images %}
+                                        <a href="{{image.path.url}}" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+                                        <img src="{{image.path.url}}" width='150' height="150" class="img-fluid rounded">
+                                        </a>
+                                    {% endfor %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+    </script>
+    <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+	
+	<script>
+	function initMap() {
+	const map = new google.maps.Map(document.getElementById("map"), {
+	  zoom: 15,
+	  center: { lat: {{organization.latitude}}, lng: {{organization.longtitude}} },
+	});
+	const infoWindow = new google.maps.InfoWindow({
+	  content: "",
+	  disableAutoPan: true,
+	});
+	// Add some markers to the map.
+	var iconBase = '/static/images/';
+	const markers = locations.map((position, i) => {
+	  const marker = new google.maps.Marker({
+		position: new google.maps.LatLng(position.lat, position.lng),
+		label: position.label,
+		icon: iconBase + 'hospital.png'
+		// icon: 'info'
+	  });
+  
+	  // markers can only be keyboard focusable when they have click listeners
+	  // open info window when marker is clicked
+	  marker.addListener("click", () => {
+		infoWindow.setContent(label);
+		infoWindow.open(map, marker);
+	  });
+	  return marker;
+	});
+  
+	// Add a marker clusterer to manage the markers.
+	const markerCluster = new markerClusterer.MarkerClusterer({ map, markers });
+  	}
+  
+	const locations = {{locations|safe}};
+	
+	window.initMap = initMap;
+	</script>
+{% endblock content %}

@@ -1,0 +1,440 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+{% block content %}
+<section class="banner">
+	<div class="container">
+		{% include 'blocks/search.html' %}
+	</div>
+</section>
+<section class="features">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="feature-block d-lg-flex">
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-surgeon-alt"></i>
+						</div>
+						<span>24 soat xizmat ko'rsatish</span>
+						<h4 class="mb-3">Online qabulga yozilish</h4>
+						<p class="mb-4">Favqulodda vaziyatlarda har doim yordam oling.Biz oilaviy tibbiyot tamoyilini joriy qildik.</p>
+						<a href="#" class="btn btn-main btn-round-full">Qabulga yozilish</a>
+					</div>
+				
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-ui-clock"></i>
+						</div>
+						<span>Ish tartibi</span>
+						<h4 class="mb-3">Ishlash soatlari</h4>
+						<ul class="w-hours list-unstyled">
+							<li class="d-flex justify-content-between">Yak - Chor : <span>8:00 - 17:00</span></li>
+							<li class="d-flex justify-content-between">Pay - Ju : <span>9:00 - 17:00</span></li>
+							<li class="d-flex justify-content-between">Shan - Yak : <span>10:00 - 17:00</span></li>
+						</ul>
+					</div>
+				
+					<div class="feature-item mb-5 mb-lg-0">
+						<div class="feature-icon mb-4">
+							<i class="icofont-support"></i>
+						</div>
+						<span>Favqulodda vaziyatlar</span>
+						<h4 class="mb-3">+99899-428-67-78</h4>
+						<p>Favqulodda vaziyatlarda har doim yordam oling. Biz oilaviy tibbiyot tamoyilini joriy qildik. Har qanday favqulodda vaziyatda biz bilan bog'laning.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section about">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-4 col-sm-6">
+				<div class="about-img">
+					<img src="{% static 'images/about/img-1.jpg'%}" alt="" class="img-fluid">
+					<img src="{% static 'images/about/img-2.jpg'%}" alt="" class="img-fluid mt-4">
+				</div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="about-img mt-4 mt-lg-0">
+					<img src="{% static 'images/about/img-3.jpg'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="about-content pl-4 mt-4 mt-lg-0">
+					<h2 class="title-color">Shaxsiy gigiyena <br>& sog'lom turmush tarzi</h2>
+					<p class="mt-4 mb-5">Biz eng yaxshi etakchi tibbiy xizmatni taqdim etamiz</p>
+
+					<a href="{% url 'services' %}" class="btn btn-main-2 btn-round-full btn-icon">Xizmatlar<i class="icofont-simple-right ml-3"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="cta-section ">
+	<div class="container">
+		<div class="cta position-relative">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-stat">
+						<i class="icofont-doctor"></i>
+						<span class="h3 counter" data-count="58">0</span>k
+						<p>Sog'aygan bemorlar</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-stat">
+						<i class="icofont-flag"></i>
+						<span class="h3 counter" data-count="700">0</span>+
+						<p>Jarrohlik amaliyotlari</p>
+					</div>
+				</div>
+				
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-stat">
+						<i class="icofont-badge"></i>
+						<span class="h3 counter" data-count="40">0</span>+
+						<p>Malakali shifokorlar</p>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="counter-stat">
+						<i class="icofont-globe"></i>
+						<span class="h3 counter" data-count="20">0</span>
+						<p>Mashhur Brendlar</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section service gray-bg">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7 text-center">
+				<div class="section-title">
+					<h2>Mukofotga sazovor bo'lgan bemorni parvarish qilish</h2>
+					<div class="divider mx-auto my-4"></div>
+					<p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-laboratory text-lg"></i>
+						<h4 class="mt-3 mb-3">Laboratoriya xizmatlari</h4>
+					</div>
+
+					<div class="content">
+						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-heart-beat-alt text-lg"></i>
+						<h4 class="mt-3 mb-3">Yurak kasalliklari</h4>
+					</div>
+					<div class="content">
+						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-tooth text-lg"></i>
+						<h4 class="mt-3 mb-3">Tish parvarishi</h4>
+					</div>
+					<div class="content">
+						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-crutch text-lg"></i>
+						<h4 class="mt-3 mb-3">Tana jarrohligi</h4>
+					</div>
+
+					<div class="content">
+						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-brain-alt text-lg"></i>
+						<h4 class="mt-3 mb-3">Nevrologik jarrohlik</h4>
+					</div>
+					<div class="content">
+						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-6 col-sm-6">
+				<div class="service-item mb-4">
+					<div class="icon d-flex align-items-center">
+						<i class="icofont-dna-alt-1 text-lg"></i>
+						<h4 class="mt-3 mb-3">Ginekologiya</h4>
+					</div>
+					<div class="content">
+						<p class="mb-4">Saepe nulla praesentium eaque omnis perferendis a doloremque.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section appoinment">
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-6 ">
+				<div class="appoinment-content">
+					<img src="{% static 'images/U3db117176e5048109d53049785397510I.png'%}" alt="" class="img-fluid">
+					<div class="emergency">
+						<h2 class="text-lg"><i class="icofont-phone-circle text-lg"></i>+998994286778</h2>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-10 ">
+				<div class="appoinment-wrap mt-5 mt-lg-0">
+					<h2 class="mb-2 title-color">Qabulga yozilish</h2>
+					<p class="mb-4">Online tibbiy qabulga yoziling va navbatingizni online kuzatib boring</p>
+					     <form id="#" class="appoinment-form" method="post" action="#">
+                    <div class="row">
+                         <div class="col-lg-6">
+                            <div class="form-group">
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                  <option>Kasalxonani tanlang</option>
+								{% for hospital in hospitals %}
+                                  <option>{{hospital.name}}</option>
+                                {% endfor %}
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <select class="form-control" id="exampleFormControlSelect2">
+                                  <option>Vrachni tanlang</option>
+								{% for doctor in doctors %}
+                                  <option>{{doctor.full_name}}</option>
+								{% endfor %}
+                                </select>
+                            </div>
+                        </div>
+
+                         <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="date" id="date" type="text" class="form-control" placeholder="kun/oy/yil">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="time" id="time" type="text" class="form-control" placeholder="Vaqt">
+                            </div>
+                        </div>
+                         <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="name" id="name" type="text" class="form-control" placeholder="Ism familiya">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input name="phone" id="phone" type="Number" class="form-control" placeholder="Tel nomer:">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group-2 mb-4">
+                        <textarea name="message" id="message" class="form-control" rows="6" placeholder="Izohingiz"></textarea>
+                    </div>
+
+                    <a class="btn btn-main btn-round-full" href="#" >Qabulga yozilish<i class="icofont-simple-right ml-2  "></i></a>
+                </form>
+            </div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section testimonial-2 gray-bg">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7">
+				<div class="section-title text-center">
+					<h2>Biz 5000 dan ortiq bemorlarga xizmat ko'rsatdik</h2>
+					<div class="divider mx-auto my-4"></div>
+					<p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row align-items-center">
+			<div class="col-lg-12 testimonial-wrap-2">
+				<div class="testimonial-block style-2  gray-bg">
+					<i class="icofont-quote-right"></i>
+
+					<div class="testimonial-thumb">
+						<img src="{% static 'images/team/test-thumb1.jpg'%}" alt="" class="img-fluid">
+					</div>
+
+					<div class="client-info ">
+						<h4>Ajoyib xizmat!</h4>
+						<span>Jahongir Pardayev</span>
+						<p>
+							Ular ajoyib xizmat ko'rsatishadi facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
+						</p>
+					</div>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg">
+					<div class="testimonial-thumb">
+						<img src="{% static 'images/team/test-thumb2.jpg'%}" alt="" class="img-fluid">
+					</div>
+
+					<div class="client-info">
+						<h4>Tajribali shifokorlar!</h4>
+						<span>Mansur Salimov</span>
+						<p>
+							Ular ajoyib xizmat ko'rsatish imkoniyatini beradi consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
+						</p>
+					</div>
+					
+					<i class="icofont-quote-right"></i>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg">
+					<div class="testimonial-thumb">
+						<img src="{% static 'images/team/test-thumb3.jpg'%}" alt="" class="img-fluid">
+					</div>
+
+					<div class="client-info">
+						<h4>Yaxshi qo'llab-quvvatlash!</h4>
+						<span>Kamron Tursunov</span>
+						<p>
+							Ular ajoyib xizmat ko'rsatish imkoniyatini beradi consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
+						</p>
+					</div>
+					
+					<i class="icofont-quote-right"></i>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg">
+					<div class="testimonial-thumb">
+						<img src="{% static 'images/team/test-thumb4.jpg'%}" alt="" class="img-fluid">
+					</div>
+
+					<div class="client-info">
+						<h4>Ajoyib muhit!</h4>
+						<span>Partho Sarothi</span>
+						<p class="mt-4">
+							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
+						</p>
+					</div>
+					<i class="icofont-quote-right"></i>
+				</div>
+
+				<div class="testimonial-block style-2  gray-bg">
+					<div class="testimonial-thumb">
+						<img src="{% static 'images/team/test-thumb1.jpg'%}" alt="" class="img-fluid">
+					</div>
+
+					<div class="client-info">
+						<h4>Zamonaviy xizmat!</h4>
+						<span>Kolis Mullar</span>
+						<p>
+							They provide great service facilty consectetur adipisicing elit. Itaque rem, praesentium, iure, ipsum magnam deleniti a vel eos adipisci suscipit fugit placeat.
+						</p>
+					</div>
+					<i class="icofont-quote-right"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section clients">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-7">
+				<div class="section-title text-center">
+					<h2>Bizni qo'llab-quvvatlovchi hamkorlar</h2>
+					<div class="divider mx-auto my-4"></div>
+					<p>Lets know moreel necessitatibus dolor asperiores illum possimus sint voluptates incidunt molestias nostrum laudantium. Maiores porro cumque quaerat.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row clients-logo">
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/1.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/2.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/3.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/4.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/5.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/6.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/3.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/4.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/5.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+			<div class="col-lg-2">
+				<div class="client-thumb">
+					<img src="{% static 'images/about/6.png'%}" alt="" class="img-fluid">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+{% endblock content %}

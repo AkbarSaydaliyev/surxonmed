@@ -1,0 +1,13 @@
+.vscode
+env/
+*__pycache__/
+logs/*
+files/
+.env
+.DS_Store
+.idea
+node_modules
+content/uploads/*
+content/static/*
+staticfiles/
+Pipfile.lock

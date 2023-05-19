@@ -1,0 +1,54 @@
+<html lang="en">
+{% load static %}
+<head>
+
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <title>Surxonmed</title>
+
+  <!-- Mobile Specific Metas
+  ================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Sog'lomlashtirish, medetsina xizmatlari">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="{% static 'images/favicon-32x32.png' %}" />
+  <!-- Font Awesome -->
+<link
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+  rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+  rel="stylesheet"	
+/>
+
+  <!-- 
+  Essential stylesheets
+  =====================================-->
+  <link rel="stylesheet" href="{% static 'plugins/bootstrap/bootstrap.min.css'%}">
+  <link rel="stylesheet" href="{% static 'plugins/icofont/icofont.min.css'%}">
+  <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick.css'%}">
+  <link rel="stylesheet" href="{% static 'plugins/slick-carousel/slick/slick-theme.css'%}">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="{% static 'css/style.css'%}">
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+
+</head>
+
+<body id="top">
+	{% include 'blocks/header.html' %}
+
+	{% block content %}
+	{% endblock content %}
+
+<!-- footer Start -->
+	{% include 'blocks/footer.html' %}
+  	{% include 'blocks/scripts.html' %} 
+</body>
+</html>

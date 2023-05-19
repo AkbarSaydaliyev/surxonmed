@@ -1,0 +1,285 @@
+{% extends 'base/base.html' %}
+{% load static %}	
+
+{% block content %}
+		{% if organizations %}
+			<div class="container">
+				<div id="map" style="height: 400px;, width=100px"></div>
+				{% for orgID, organization in organizations.items %}
+					<div class="row">
+						<div class="col-md-10 mt-5">
+							<div class="card mb-2 p-2">
+								<div class="d-flex">
+									<div class="p-1 flex-fill">
+										<img class="mb-2" src="{{organization.image}}" alt="{{organization.name}}" width="120" height="120">
+										<div class="d-flex">
+											<i class="text-warning fas fa-star"></i>
+											<i class="text-warning fas fa-star"></i>
+											<i class="text-warning fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</div>
+										<div><a class="badge badge-light" href="#">2 fikr-mulohaza</a></div>
+									</div>
+									<div class="p-1 flex-fill flex-grow-1">
+										<a href="{% url 'organization-detail' pk=orgID %}"><h6>{{organization.name}}</h6></a>
+										<p style="font-size: 14px; line-height: 1.4">{{organization.description}}<p>
+									</div>
+									<div class="col-md-3">
+										<p class="text-sm mb-0">
+											<i class="fa-sharp fa-solid fa-location-dot"></i> 
+											{{organization.address}}
+										</p>
+										<p class="text-sm mb-0">
+											<i class="fa-regular fa-clock"></i> 
+											{{organization.working_time}}
+										</p>
+										<p class="text-sm">
+										<i class="fa-sharp fa-solid fa-phone"></i> 
+										<a href="tel:{{organization.phone_numbers}}">{{organization.phone_numbers}}</a>
+										</p>
+									</div>
+								</div>
+							
+							<div class="card-footer">
+								<div class="row">
+									<div class="col">
+										{% if 'doctors' in organization %}
+											<h3>Shifokorlar:</h3>
+											{% for doctor in organization.doctors %}
+												<div class="card mb-2 p-2">
+													<div class="row">
+														<div class="col-sm-2">
+															<img class="mb-2" src="{{doctor.photo}}" alt="{{doctor.full_name}}" width="90" height="90">
+															<div>
+																<i class="text-warning fas fa-star checked"></i>
+																<i class="text-warning fas fa-star checked"></i>
+																<i class="text-warning fas fa-star checked"></i>
+																<i class="fas fa-star checked"></i>
+															</i><i class="fas fa-star checked"></i>
+														</div>
+															<div><a class="badge badge-light" href="#">2 fikr-mulohaza</a></div>
+														</div>
+														<div class="col-sm-6">
+															<h6>{{doctor.full_name}}</h6>
+															<p style="font-size: 14px; line-height: 1.4">{{doctor.description}}<p>
+															<p>{{doctor.category}}</p>
+														</div>
+														<div class="col-sm-3">
+															<div>
+																<i class="fa-sharp fa-solid fa-location-dot"></i>
+																<p style="font-size: 12px; display: inline;">{{doctor.organization.address}}</p>
+															</div>
+															<div class="text-sm">
+															<a class="btn btn-sm btn-info" href="#">Qabuliga yozilish</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											{% endfor %}
+										{% endif %}
+										{% if 'services' in organization %}
+											<h3 class="ml-3 mt-2">Tibbiy xizmatlar</h3>
+											<ul class="list-group list-group-flush">
+												{% for service in organization.services %}
+													<li class="list-group-item mr-4">{{service.service}}: <span class="badge badge-info text-sm d-inline ml-5">{{service.price|add:0}} so'm</span></li>
+												{% endfor %}
+											</ul>
+										{% endif %}
+									</div>
+								</div>
+							</div>
+							</div>
+						</div>
+					</div>
+				{% endfor %}
+			</div>
+		{% else %}
+			<div class='banner'>
+				<div class="container">
+					{% include 'blocks/search.html' %}
+				</div>
+			</div>
+			<hr>
+			<div class="container">
+				<h3>{{errors}}</h3>
+			</div>
+		{% endif %}
+		{% comment %} <div class="row">
+			<div class="col-md-8 mt-3">
+				<div class="card mb-2 p-2">
+					<div class="row">
+						<div class="col-sm-3">
+							<img src="{% static 'images/organizations/download.jpg' %}" alt="o'tan-polvon" width="90" height="90">
+							<div><i class="fas fa-star checked"></i><i class="fas fa-star checked"></i><i class="fas fa-star checked"></i><i class="fas fa-star checked"></i></i><i class="fas fa-star checked"></i></div>
+							<div><a class="badge badge-light" href="#">2 fikr-mulohaza</a></div>
+						</div>
+						<div class="col-sm-6">
+							<h6>"O'tan Polvon" Diagnostika va Davolash Markazi</h6>
+							<p style="font-size: 14px; line-height: 1.4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...<p>
+						</div>
+						<div class="col-sm-3">
+							<div>
+								<i class="fa-sharp fa-solid fa-location-dot"></i>
+								<p style="font-size: 12px; display: inline;">Ibn Sino ko'chasi 4a-uy</p>
+							</div>
+							<div>
+								<i class="fa-regular fa-clock"></i><p style="font-size: 12px; display: inline;"> Dushanba - Juma 09:00-18:00<br> Shanba 09:00-16:00<br> Yakshanba dam olish kuni </p>
+							</div>
+							<p>tel: +998762243529</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 mt-5">
+				<div class="card mb-2 p-2">
+					<div class="row">
+						<div class="col-sm-3">
+							<img src="{% static 'images/organizations/download.jpg' %}" alt="o'tan-polvon" width="90" height="90">
+							<div><i class="fas fa-star checked"></i><i class="fas fa-star checked"></i><i class="fas fa-star checked"></i><i class="fas fa-star checked"></i></i><i class="fas fa-star checked"></i></div>
+							<div><a class="badge badge-light" href="#">2 fikr-mulohaza</a></div>
+						</div>
+						<div class="col-sm-6">
+							<h6>"O'tan Polvon" Diagnostika va Davolash Markazi</h6>
+							<p style="font-size: 14px; line-height: 1.4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...<p>
+						</div>
+						<div class="col-sm-3">
+							<div>
+								<i class="fa-sharp fa-solid fa-location-dot"></i>
+								<p style="font-size: 12px; display: inline;">Ibn Sino ko'chasi 4a-uy</p>
+							</div>
+							<div>
+								<i class="fa-regular fa-clock"></i><p style="font-size: 12px; display: inline;"> Dushanba - Juma 09:00-18:00<br> Shanba 09:00-16:00<br> Yakshanba dam olish kuni </p>
+							</div>
+							<p>tel: +998762243529</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-8 mt-5">
+				<div class="card mb-2 p-2">
+					<div class="row">
+						<div class="col-sm-3">
+							<img src="{% static 'images/organizations/download.jpg' %}" alt="o'tan-polvon" width="90" height="90">
+							<div><i class="fas fa-star checked"></i><i class="fas fa-star checked"></i><i class="fas fa-star checked"></i><i class="fas fa-star checked"></i></i><i class="fas fa-star checked"></i></div>
+							<div><a class="badge badge-light" href="#">2 fikr-mulohaza</a></div>
+						</div>
+						<div class="col-sm-6">
+							<h6>"O'tan Polvon" Diagnostika va Davolash Markazi</h6>
+							<p style="font-size: 14px; line-height: 1.4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been...<p>
+						</div>
+						<div class="col-sm-3">
+							<div>
+								<i class="fa-sharp fa-solid fa-location-dot"></i>
+								<p style="font-size: 12px; display: inline;">Ibn Sino ko'chasi 4a-uy</p>
+							</div>
+							<div>
+								<i class="fa-regular fa-clock"></i><p style="font-size: 12px; display: inline;"> Dushanba - Juma 09:00-18:00<br> Shanba 09:00-16:00<br> Yakshanba dam olish kuni </p>
+							</div>
+							<p>tel: +998762243529</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> {% endcomment %}
+	<script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+	
+	<script>
+	function initMap() {
+	const map = new google.maps.Map(document.getElementById("map"), {
+	  zoom: 12,
+	  center: { lat: 37.25107713059979, lng: 67.30962705523636 },
+	});
+	const infoWindow = new google.maps.InfoWindow({
+	  content: "",
+	  disableAutoPan: true,
+	});
+	// Add some markers to the map.
+	var iconBase = '/static/images/';
+	const markers = locations.map((position, i) => {
+	  const marker = new google.maps.Marker({
+		position: new google.maps.LatLng(position.lat, position.lng),
+		label: position.label,
+		icon: iconBase + 'hospital.png',
+		// icon: 'info'
+	  });
+  
+	  // markers can only be keyboard focusable when they have click listeners
+	  // open info window when marker is clicked
+	  marker.addListener("click", () => {
+		infoWindow.setContent(label);
+		infoWindow.open(map, marker);
+	  });
+	  return marker;
+	});
+  
+	// Add a marker clusterer to manage the markers.
+	const markerCluster = new markerClusterer.MarkerClusterer({ map, markers });
+  	}
+  
+	const locations = {{locations|safe}};
+	
+	window.initMap = initMap;
+	</script>
+{% endblock content %}
+{% comment %} {% block scripts %}
+	<script src="https://unpkg.com/@googlemaps/markerclusterer/dist/index.min.js"></script>
+	
+	<script>
+	function initMap() {
+	const map = new google.maps.Map(document.getElementById("map"), {
+	  zoom: 12,
+	  center: { lat: 37.25107713059979, lng: 67.30962705523636 },
+	});
+	const infoWindow = new google.maps.InfoWindow({
+	  content: "",
+	  disableAutoPan: true,
+	});
+	// Add some markers to the map.
+	const markers = locations.map((position, i) => {
+	  const marker = new google.maps.Marker({
+		position: new google.maps.LatLng(position.lat, position.lng),
+		label: position.label,
+		// icon: 'info'
+	  });
+  
+	  // markers can only be keyboard focusable when they have click listeners
+	  // open info window when marker is clicked
+	  marker.addListener("click", () => {
+		infoWindow.setContent(label);
+		infoWindow.open(map, marker);
+	  });
+	  return marker;
+	});
+  
+	// Add a marker clusterer to manage the markers.
+	const markerCluster = new markerClusterer.MarkerClusterer({ map, markers });
+  	}
+  
+	const locations = [
+		{
+			label: 'Utan Palvon',
+			lat: 37.21395596522872,
+			lng: 67.26998249828263,
+		},
+		{
+			label: 'Mashhura Klinikasi',
+			lat: 37.23592728891454,
+			lng: 67.26260095020207,
+		},
+		{
+			label: 'Surxon Shifo',
+			lat: 37.21606605170777,
+			lng: 67.26945938834764,
+		},
+	];
+	
+	window.initMap = initMap;
+	</script>
+{% endblock scripts %} {% endcomment %}
+
+

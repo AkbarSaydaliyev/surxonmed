@@ -1,0 +1,49 @@
+{% extends 'base/base.html' %}
+{% load static %}
+
+
+{% block content %}
+    <section class="section doctors">
+  <div class="container">
+	<div class="row justify-content-center">
+			<div class="col-lg-6 text-center">
+			<div class="section-title">
+				<h2>Shifoxonalar</h2>
+				<div class="divider mx-auto my-4"></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="col-12 text-center  mb-5">
+	        <div class="btn-group btn-group-toggle d-inline-block" data-toggle="buttons">
+	          <label class="btn active ">
+	            <input type="radio" name="shuffle-filter" value="all" checked="checked" />Barcha xizmatlar
+	          </label>
+			  {% for category in hospital_categories %}
+				<label class="btn">
+					<input type="radio" name="shuffle-filter" value="{{category.name}}" />{{category.name}}
+				</label>
+			  {% endfor %}
+	          
+	        </div>
+      </div>
+
+    <div class="row shuffle-wrapper portfolio-gallery">
+		{% for hospital in hospitals %}
+			<div class="col-lg-3 col-sm-6 col-md-6 mb-4 shuffle-item" data-groups="[&quot;{{hospital.category.name}}&quot;]">
+				<div class="position-relative doctor-inner-box overflow-hidden">
+					<div class="doctor-profile">
+					<div class="doctor-img mt-3">
+						<a href="{% url 'organization-detail' pk=hospital.pk %}"><img src="{{hospital.image.url}}" width="200" height="200" alt="{{hospital.name}}" class="width: 100%"></a>
+					</div>
+					</div>
+					<div class="content mt-3">
+						<h4 class="mb-0"><a href="{% url 'organization-detail' pk=hospital.pk %}">{{hospital.name}}</a></h4>
+						<p>{{hospital.category.name}}</p>
+					</div> 
+				</div>
+			</div>
+		{% endfor %}
+  	</div>
+</section>
+{% endblock content %}
